@@ -1,12 +1,5 @@
-ANDROID JAM([apkjam.com](http://apkjam.com)) is an Android System and Apps related website, designed to share the useful Android Techniques and helpful/effective Apps with you.
+「x49」 is a Jekyll Theme from [Jason](http://wheat.at/about.html).
 
-It is designed/published with Jekyll, and maintained by Kay and [Jason](http://wheat.at/about.html), it also has a Chinese branch [cn.apkjam.com](http://cn.apkjam.com).
+**Why is 「x49」?**
 
-Release history:
-
-- 2016/11 draft
-- 2016/12/25 first post
-
-To be done:
-
-- [disqus](https://disqus.com/) integration
+「x49」 comes from a pleasant coffee shop in Bangkok, which is "[Casa Lapin X49](http://wheat.at/others/2015/06/03/cs-x49.html)". I've been there many times while I lived there during 2015-2016.
