@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% include header.html %}
+</head>
+<body>
+{% include topNavi.html %}
+<div id="main">
+  <h2><span class="title">{{ page.title }}</span></h2>
+  <div id="post_content">
+  {{ content }}
+  </div>
+</div>
+<center>{% include footer.html %}</center>
+</body>
+</html>

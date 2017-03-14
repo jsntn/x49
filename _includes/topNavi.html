@@ -1,0 +1,24 @@
+<ul class="topnav" id="myTopnav">
+  <li><a href="/">{{ site.title }}</a></li>
+  {% for my_page in site.pages %}
+  {% if my_page.menu == 'show' %}
+  {% if my_page.title %}
+  <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  <li class="icon">
+  <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
