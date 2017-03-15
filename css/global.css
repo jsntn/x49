@@ -18,7 +18,7 @@ a:visited { text-decoration: underline; color: black}
   padding-right: 10%;
 }
 
-.title, .post_info, .post_desc, #post_content {
+.title, .post_info, .post_desc, #post_content, #disqus_thread {
 padding-left: 2%;
 }
 
