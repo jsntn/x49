@@ -11,8 +11,9 @@
   <h2><span class="title">{{ page.title }}</span></h2>
   <span class="post_info">{{ page.date | date_to_string }}</span>
   <div id="post_content">
-  {{ content }}
+    {{ content }}
   </div>
+  {% include disqus.html %}  
 </div>
 <center>{% include footer.html %}</center>
 </body>
