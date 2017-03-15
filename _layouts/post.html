@@ -9,7 +9,7 @@
 {% include topNavi.html %}
 <div id="main">
   <h2><span class="title">{{ page.title }}</span></h2>
-  <span class="post_info">{{ page.date | date_to_string }} • <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a></span>
+  <span class="post_info">{{ page.date | date_to_string }}{% if page.comments %} • <a href="{{ site.url }}{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}</span>
   <div id="post_content">
     {{ content }}
   </div>
