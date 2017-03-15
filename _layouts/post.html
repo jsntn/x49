@@ -9,12 +9,13 @@
 {% include topNavi.html %}
 <div id="main">
   <h2><span class="title">{{ page.title }}</span></h2>
-  <span class="post_info">{{ page.date | date_to_string }}</span>
+  <span class="post_info">{{ page.date | date_to_string }} • <a href="{{ site.url }}{{ page.url }}#disqus_thread"></a></span>
   <div id="post_content">
     {{ content }}
   </div>
   {% include disqus.html %}  
 </div>
 <center>{% include footer.html %}</center>
+<script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
 </body>
 </html>

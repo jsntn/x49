@@ -6,10 +6,10 @@ html, body {
   letter-spacing: 1px; 
 }
 
-a:link { text-decoration: underline; color: black} 
-a:hover { text-decoration: underline; color: black} 
-a:active { text-decoration: underline; color: black} 
-a:visited { text-decoration: underline; color: black} 
+/** Links */
+a { color: #2a7ae2; text-decoration: none; }
+a:visited { color: #1756a9; }
+a:hover { color: #111; text-decoration: underline; }
 
 #main {
   margin:0;
@@ -22,7 +22,11 @@ a:visited { text-decoration: underline; color: black}
 padding-left: 2%;
 }
 
-.post_info, .post_desc {
+.post_info {
+color: #828282;
+}
+
+.post_desc {
 font-color: #fff;
 }
 
