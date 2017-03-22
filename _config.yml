@@ -1,5 +1,6 @@
 title: x49
-url: https://jsntn.github.io/x49 # Site url, without a slash at the end.
+#url: https://jsntn.github.io/x49 # fill it with your site url, without slash at the end. comment it if you test it locally.
+url: http://127.0.0.1:4000 # for local test, comment it once this is live on your host.
 permalink: /:title.html 
 
 disqus_shortname: apkjam
