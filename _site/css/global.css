@@ -49,6 +49,22 @@ p.date {
   list-style: square;
 }
 
+.pageNavi {
+  width: 98%;
+  padding-left: 2%;
+}
+.prevPost {float:left}
+.nextPost {float:right}
+.prevPost, .nextPost {
+  margin: 5px 0 5px 0;
+}
+
+.prevPost, .nextPost {
+  border: #DDDDDD 1px solid;
+  padding: 3px;
+  margin: 5px 0 5px 0;
+}
+
 .archives ul {
   padding-left: 0px;
 }

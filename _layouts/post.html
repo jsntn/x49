@@ -13,6 +13,15 @@
   <div id="post_content">
     {{ content }}
   </div>
+    <div class='pageNavi'>
+    {% if page.previous %}
+    <a class="prevPost" href="{{ page.previous.url }}">&laquo; {{ page.previous.title | truncatewords:5 }}</a>
+    {% endif %}
+    {% if page.next %}
+    <a class="nextPost" href="{{ page.next.url }}">{{ page.next.title | truncatewords:5 }} &raquo;</a>
+    {% endif %}
+    <br /><br />
+  </div>
   {% include disqus.html %}  
 </div>
 <center>{% include footer.html %}</center>
