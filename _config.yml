@@ -4,3 +4,4 @@ url: https://jsntn.github.io/x49 # fill it with your site url, without slash at 
 permalink: /:title.html 
 
 disqus_shortname: apkjam
+google_analytics_tracking_id: UA-12345678-9
