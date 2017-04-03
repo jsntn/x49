@@ -5,3 +5,13 @@ permalink: /:title.html
 
 disqus_shortname: apkjam
 google_analytics_tracking_id: UA-12345678-9
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
