@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Archives | x49</title>
+<title>test blog | x49</title>
 <link rel="stylesheet" href="https://jsntn.github.io/x49/css/normalize.css" type="text/css" />
 <link rel="stylesheet" href="https://jsntn.github.io/x49/css/global.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,23 +24,29 @@ function myFunction() {
 }
 </script>
 <div id="main">
- <h2><span class="title">Archives</span></h2>
+ <h2><span class="title">test blog</span></h2>
+  <span class="post_info">07 Apr 2017 • <a href="https://jsntn.github.io/x49/hi-blog.html#disqus_thread">0 Comments</a></span>
  <div id="post_content">
- <div class="archives">
-<ul>
-<div id="hr_dotted"></div>
-<center><p><h1>2017</h1></center>
-<div id="hr_dotted"></div>
-<li><span class="left_0">2017-04-07 <span class="postName">&raquo; <a href="/hi-blog.html">test blog</a></span></span>
-<li><span class="left_0">2017-03-14 <span class="postName">&raquo; <a href="/1st.html">First Post</a></span></span>
-<li><span class="left_0">2017-03-13 <span class="postName">&raquo; <a href="/hello-world.html">Hello! World.</a></span></span>
-<div id="hr_dotted"></div>
-<center><p><h1>2016</h1></center>
-<div id="hr_dotted"></div>
-<li><span class="left_0">2016-03-23 <span class="postName">&raquo; <a href="/test.html">test archives</a></span></span>
-</ul>
-</div>
+   <p>Hi! Blog.
  </div>
+   <div class='pageNavi'>
+    <a class="prevPost" href="https://jsntn.github.io/x49/1st.html">&laquo; First Post</a>
+    <br /><br />
+ </div>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://jsntn.github.io/x49/hi-blog.html";
+this.page.identifier = "/hi-blog";
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+ var d = document, s = d.createElement('script');
+ s.src = 'https://apkjam.disqus.com/embed.js';
+ s.setAttribute('data-timestamp', +new Date());
+ (d.head || d.body).appendChild(s);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 <center>&copy; <a href="https://jsntn.github.io/x49">x49</a>
 <script>
@@ -52,3 +58,4 @@ ga('create', 'UA-12345678-9', 'auto');
   ga('send', 'pageview');
 </script>
 </center>
+<script id="dsq-count-scr" src="//apkjam.disqus.com/count.js" async></script>
