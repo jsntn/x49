@@ -26,6 +26,10 @@ a:hover { color: #111; text-decoration: underline; }
   color: #828282;
 }
 
+.post_info .fa {
+padding-right: 5px;
+}
+
 .post_desc {
   font-color: #fff;
 }
