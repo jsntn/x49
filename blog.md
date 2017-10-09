@@ -2,6 +2,7 @@
 layout: default
 menu: show
 title: Blog
+permalink: /blog.html
 ---
 
 {% for post in site.categories.blog %}

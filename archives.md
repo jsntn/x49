@@ -2,6 +2,7 @@
 layout: page
 menu: show
 title: Archives
+permalink: /archives.html
 ---
 
 <div class="archives">

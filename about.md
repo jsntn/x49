@@ -2,6 +2,7 @@
 layout: page
 menu: show
 title: About
+permalink: /about.html
 ---
 
 「x49」 is a Jekyll Theme from [Jason](http://wheat.at/about.html).

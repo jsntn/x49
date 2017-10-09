@@ -2,9 +2,9 @@
 layout: post
 title: 
 author: 
-category:
+category: blog
 place: 
-weather:  
+weather: 
 description: 
 comments: true
 ---
