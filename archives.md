@@ -16,7 +16,7 @@ permalink: /archives.html
 <center><p><h1>{{this_year}}</h1></p></center>
 <div id='hr_dotted'></div>
 {% endif %}
-<li><span class='left_0'>{{ post.date | date:"%Y-%m-%d" }} <span class='postName'>&raquo; <a href="{{ post.url }}">{{ post.title }}</a></span></span></li>
+<li><span class='left_0'>{{ post.date | date:"%Y-%m-%d" }} <span class='postName'>&raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></span></span></li>
 {% if forloop.last %}
 {% else %}
 {% if this_year != next_year %}
